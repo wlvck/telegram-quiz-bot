@@ -67,3 +67,8 @@ class Questions(Base):
 
 
 Base.metadata.create_all(engine)
+# x = Teacher(first_name="Kangat", last_name="Zhumagali", telegram_id=44)
+# session.add(x)
+# session.commit()
+# data = session.query(Teacher).filter_by(telegram_id=44).first().telegram_id
+# print(data)
